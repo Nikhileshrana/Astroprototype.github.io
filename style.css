@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+}
+
+nav
+{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Raleway Dots', cursive;
+    font-size: 60px;
+    border-bottom-left-radius: 155px;
+    border-bottom-right-radius: 155px;
+
+}
+
+#span1
+{
+    color: rgb(0, 0, 0);
+    background-color:transparent;
+    font-family: 'Raleway Dots', cursive;
+    font-size: 90px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    display: block;
+}
+
+#span2
+{
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    padding: 2%;
+    border-top-right-radius:50px;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:80px;
+    border-bottom-right-radius:80px;
+    position: relative;
+    bottom: 0px;
+    left: 400px;
+    
+}
+
+#span3
+{
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    padding: 2%;
+    border-top-right-radius:50px;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:80px;
+    border-bottom-right-radius:80px;
+    position: relative;
+    left: 800px;
+}
+
+#span4
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    border-radius:50px;
+    padding: 0.5%;
+    font-family: 'Raleway Dots', cursive;
+    position: fixed;
+    left: 93%;
+    top: 3%;
+}
+
+#mars_smallimage
+{
+    height:500px;
+    width: 500px;
+    margin-left: 15%;
+}
+
+#moon_smallimage
+{
+    height:500px;
+    width: 500px;
+}
+
+
+.container1
+{
+    border-radius: 20%;
+    border-top-right-radius: 400px;
+    border-bottom-left-radius: 400px;
+    margin: 1%;
+    height: 600px;
+    width: 1400px;
+    background-color: rgb(0, 0, 0);
+    overflow:auto;
+    color: rgb(238, 236, 233);
+}
+
+.container2
+{
+    border-radius: 20%;
+    border-top-right-radius: 400px;
+    border-bottom-left-radius: 400px;
+    margin: 1%;
+    height: 600px;
+    width: 1400px;
+    background-color: rgb(0, 0, 0);
+    overflow:auto;
+    color: rgb(238, 236, 233); 
+}
+
+img
+{
+    width: 100%;
+}
+
+.planet_info
+{
+    width: 500px;
+    position: relative;
+    text-align: center;
+    left: 700px;
+    font-size: larger;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+footer
+{
+    font-family:'Fredoka One', cursive;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+}
+
+#dev
+{
+    font-size: 90px;
+}
