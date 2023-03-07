@@ -3,62 +3,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 *
 {
-    margin: 0px;
-    padding: 0px;
+    margin:0px;
+    padding:0px;
     border:0px;
+    border-radius: 0px;
+    box-sizing: border-box;
 }
 
 nav
 {
     color: rgb(255, 255, 255);
     background-color: black;
-    padding: 10px;
-    text-align: center;
+    padding:10px;
+    text-align:center;
     font-family: 'Raleway Dots', cursive;
     font-size: 60px;
-    border-bottom-left-radius: 155px;
-    border-bottom-right-radius: 155px;
-
-}
-
-#span1
-{
-    color: rgb(0, 0, 0);
-    background-color:transparent;
-    font-family: 'Raleway Dots', cursive;
-    font-size: 90px;
-    position: relative;
-    top: 20px;
-    text-align: center;
+    border-bottom-left-radius:150px;
+    border-bottom-right-radius:150px;
     display: block;
-}
-
-#span2
-{
-    color: rgb(255, 255, 255);
-    background-color:rgb(0, 0, 0);
-    padding: 2%;
-    border-top-right-radius:50px;
-    border-top-left-radius:50px;
-    border-bottom-left-radius:80px;
-    border-bottom-right-radius:80px;
-    position: relative;
-    bottom: 0px;
-    left: 400px;
-    
-}
-
-#span3
-{
-    color: rgb(255, 255, 255);
-    background-color:rgb(0, 0, 0);
-    padding: 2%;
-    border-top-right-radius:50px;
-    border-top-left-radius:50px;
-    border-bottom-left-radius:80px;
-    border-bottom-right-radius:80px;
-    position: relative;
-    left: 800px;
 }
 
 #span4
@@ -72,63 +34,98 @@ nav
     position: fixed;
     left: 93%;
     top: 3%;
+    
 }
 
-#mars_smallimage
+#span1
 {
-    height:500px;
-    width: 500px;
-    margin-left: 15%;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway Dots', cursive;
+    font-size: 90px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    display: block;
+    
 }
 
-#moon_smallimage
+.container
 {
-    height:500px;
-    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 375px;
 }
 
-
-.container1
+.planets
 {
-    border-radius: 20%;
-    border-top-right-radius: 400px;
-    border-bottom-left-radius: 400px;
-    margin: 1%;
-    height: 600px;
-    width: 1400px;
-    background-color: rgb(0, 0, 0);
-    overflow:auto;
-    color: rgb(238, 236, 233);
+    font-size: 25px;
+    font-family: 'Raleway Dots', cursive;
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    border-top-right-radius:50px;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:80px;
+    border-bottom-right-radius:80px;
+    padding: 30px;
 }
 
 .container2
 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.planetimg
+{
+    align-self: center;   
+}
+
+.container3
+{
+    border-radius: 20%;
+    border-top-right-radius: 400px;
+    border-bottom-left-radius: 400px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(238, 236, 233);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow:auto;
+    height: 800px;
+
+}
+
+
+.container4
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     border-radius: 20%;
     border-top-right-radius: 400px;
     border-bottom-left-radius: 400px;
     margin: 1%;
-    height: 600px;
-    width: 1400px;
+    height: 800px;
     background-color: rgb(0, 0, 0);
     overflow:auto;
     color: rgb(238, 236, 233); 
 }
 
-img
-{
-    width: 100%;
-}
 
-.planet_info
+.planetinfo
 {
+    align-self: flex-start;
     width: 500px;
     position: relative;
     text-align: center;
-    left: 700px;
+    left: 500px;
     font-size: larger;
     font-family: 'Orbitron', sans-serif;
 }
-
 
 footer
 {
