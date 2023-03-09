@@ -60,7 +60,7 @@ nav
 .planets
 {
     font-size: 25px;
-    font-family: 'Raleway Dots', cursive;
+    font-family: 'Orbitron', sans-serif;
     color: rgb(255, 255, 255);
     background-color:rgb(0, 0, 0);
     border-top-right-radius:50px;
@@ -81,6 +81,10 @@ nav
 .planetimg
 {
     align-self: center;   
+    border-top-right-radius:30% ;
+    border-top-left-radius:30% ;
+    border-bottom-right-radius:10% ;
+    border-bottom-left-radius:10% ;
 }
 
 .container3
@@ -94,7 +98,7 @@ nav
     flex-wrap: wrap;
     justify-content: center;
     overflow:auto;
-    height: 800px;
+    height: 700px;
 
 }
 
@@ -109,7 +113,7 @@ nav
     border-top-right-radius: 400px;
     border-bottom-left-radius: 400px;
     margin: 1%;
-    height: 800px;
+    height: 700px;
     background-color: rgb(0, 0, 0);
     overflow:auto;
     color: rgb(238, 236, 233); 
@@ -119,10 +123,10 @@ nav
 .planetinfo
 {
     align-self: flex-start;
-    width: 500px;
+    width: 700px;
     position: relative;
     text-align: center;
-    left: 500px;
+    left: 200px;
     font-size: larger;
     font-family: 'Orbitron', sans-serif;
 }
@@ -139,4 +143,10 @@ footer
 #dev
 {
     font-size: 90px;
+}
+
+#telegram_img
+{
+    height:30px;
+    width:30px;
 }
